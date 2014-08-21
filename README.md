@@ -18,11 +18,10 @@ carousel plugin V1.0.0
 5.第一个插件，后续会继续修改，<br/>
   有好的建议：sunnysunyan7@163.com <br/>     
 
-
+===============
 对了，用法很简单，$(".test").LBT() 即可，<br/>
 提供参数widthLBT,heightLBT，默认是600*400。<br/>
 我又没压缩，你也可以去改源码。<br/>
-
 ===============
 另外，欢迎到我的blog看看<br/>
 http://777sunny777.github.io/sunnyblog/
