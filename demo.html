@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>savour-carousel</title>
+<link rel="stylesheet" type="text/css" href="savour-carousel.css">
+<body>
+<div class="test">
+    <div id="list">  
+        <ul class="pics">      
+            <li><img src="./img/1.jpg"></li>
+            <li><img src="./img/2.jpg"></li> 
+            <li><img src="./img/3.jpg"></li>   
+        </ul>
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="quick">
+            <span class="snav start active"></span>
+            <span class="snav"></span>
+            <span class="snav end"></span>
+        </div>
+    </div>  
+</div>
+<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="savour-carousel.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $(".test").LBT();
+    });
+</script>
+</body>
+</html>
